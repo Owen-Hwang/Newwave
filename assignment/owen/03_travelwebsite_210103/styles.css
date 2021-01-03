@@ -1,0 +1,26 @@
+div {
+  text-align: center;
+}
+.logo {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+}
+.menu {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+a {
+  font-size: 16px;
+  font-family: "Helvetica";
+  text-decoration: none;
+  color: #58595B;
+  margin-right: 20px;
+  
+}
+.selected {
+  font-weight: bold;
+}
+.main {
+  width: 90%;
+}
