@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Box Model</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			h1{
+				border: 5px solid red;
+
+				/*border내 여유공간*/
+				padding-top: 50px;
+				padding-bottom: 65px;
+				padding-left: 80px; 
+				padding-right: 20px;
+				/*한방에 가능_위,아래,왼,오_2개 위아래, 왼오_1개 all*/
+				padding: 50px, 65px, 80px, 20px;
+
+				/*여백*/
+				margin-top: ;
+				margin-bottom: ;
+				margin-left: ;
+				margin-right: ;
+				/*한방 가능*/
+				margin: ;
+				/*auto는 알아서 반씩 나눠먹어라*/
+				margin-left: auto;
+				margin-right: auto;
+				=
+				margin: 0 auto;
+
+				/*넓이_가로*/
+				width: 500px; 
+				/*가로 최소 px 고정 _페이지 축소해도 500px 고정*/
+				min-width: 500px;
+				/*가로 최대 px 고정 _페이지 확대해도 500px 고정*/
+				max-width: 500px;
+
+				/*높이_세로*/
+				height : 300px;
+				min-height: ;
+				 /*최대값 고정으로 잘못하면 내용 흘러나옴_overflow활용*/
+				max-height: ;
+
+				/*overflow_삐져나온 글 처리*/
+				overflow: hidden;
+				/*기본값*/
+				overflow: visible;
+				/*스크롤바_auto는 내용 적으면 스크롤 안나옴*/
+				overflow: scroll;
+				overflow: auto;	
+
+				border: 2px solid #4d9fff;
+				/*dotted 점선 dashed 타선*/
+				border-style: solid;
+				border-color: #4d9fff;
+				border-width: 50px;
+				/*위아래*/
+				border-top: 3px dashed #4d9fff;
+				border-bottom: 5px dotted green;
+				/*테두리 없애기*/
+				border: none or 0;
+				/*다양한 테두리*/
+				border-style:inset;
+				border-style:outset;
+
+				/*박스를 꾸미는 방법*/
+				border-radius:;
+				border: 1px solid green;
+			  border-top-left-radius: 50px; /* 왼쪽 위 */
+			  border-top-right-radius: 5px; /* 오른쪽 위 */
+			  border-bottom-right-radius: 0px; /* 오른쪽 아래 */
+			  border-bottom-left-radius: 20px; /* 왼쪽 아래 */
+
+				/*전체 화면_transparent 배경색 투명(default값)*/
+				background-color: transparent;
+				/*각자 줄 수 있음*/
+				body {
+				  background-color: #4d9fff;}
+
+				h1 {
+				  background-color: white;}
+
+				h2 {
+				  background-color: transparent}
+
+				h3 {background-clip: content-box;}
+
+				/*그림자*/
+				h4{
+					box-shadow: 가로px 세로px (흐린정도px 크기px 색상);
+				
+				/*box size*/
+				width :300px;
+				height :200px;
+				padding :35px;
+				border :5px;
+				총 가로 300+35+35+5, 총 세로 200+35+35+5
+
+				가로 300px, 세로 200px 만들기
+				box-sizing: border-box; 원하는 사이즈 나옴
+				box-sizing: content-box; default값으로 전체 합 나옴
+				}
+				*{ 모든요소
+					box-sizing: border-box;
+				}
+				 /*배경 이미지*/
+				 .div1{
+				 	height: 500px;
+				 	border: 5px solid green;
+				 	background-image: url("")
+
+				 	background-repeat
+					/* 반복하지 않음 */
+					background-repeat: no-repeat;
+
+					/* 가로 방향으로만 반복 */
+					background-repeat: repeat-x;
+
+					/* 세로 방향으로만 반복 */
+					background-repeat: repeat-y;
+
+					/* 가로와 세로 모두 반복 */
+					background-repeat: repeat;
+
+					/* 반복할 수 있는 만큼 반복한 뒤, 남는 공간은 이미지 간의 여백으로 배분 */
+					background-repeat: space;
+
+					/* 반복할 수 있는 만큼 반복한 뒤, 남는 공간은 이미지 확대를 통해 배분 */
+					background-repeat: round;
+
+					background-size
+					/* 원래 이미지 사이즈대로 출력 */
+					background-size: auto;
+
+					/* 화면을 꽉 채우면서, 사진 비율을 유지 */
+					background-size: cover;
+
+					/* 가로, 세로 중 먼저 채워지는 쪽에 맞추어서 출력 */
+					background-size: contain;
+
+					/* 픽셀값 지정 (가로: 30px, 세로: 50px로 설정) */
+					background-size: 30px 50px;
+
+					/* 퍼센트값 지정 (가로: 부모 요소 width의 60%, 세로: 부모 요소 height의 70%로 설정) */
+					background-size: 60% 70%;
+
+					background-position 배경 이미지의 위치
+					/* 단어로 지정해주기 (가로: left, center, right, 세로: top, center, bottom) */
+					background-position: center bottom;
+
+					/* 퍼센트로 지정해주기 (가로: 전체 width의 25% 지점, 세로: 전체 height의 75% 지점 ) */
+					background-position: 25% 75%;
+
+					/* 픽셀로 지정하기 (가로: 가장 왼쪽 가장자리에서부터 오른쪽으로 100px 이동한 지점, 세로: 가장 상단 가장자리에서 아래로 200px 이동한 지점) */
+					background-position: 100px 200px;
+				}
+
+		</style>
+	</head>
+	<body>
+
+	</body>
+</html>

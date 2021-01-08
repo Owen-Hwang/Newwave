@@ -1,0 +1,55 @@
+@font-face{
+  src: url("../fonts/NanumSquareRoundOTFEB.otf");
+  font-family: Nanum;
+}
+
+* {
+  font-family: Nanum;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #01DFD7;
+}
+
+.login-form {
+	width: 300px; 
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #EEEFF1;
+	border: none;
+	padding: 20px;
+}
+
+img{
+  width: 100%;
+  }
+
+.text-field {
+	border: none;
+	width: 100%;
+	padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  border: none;
+  background-color: #01DFD7;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.links {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9B9B9B
+}

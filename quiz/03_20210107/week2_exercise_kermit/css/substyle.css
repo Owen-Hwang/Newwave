@@ -1,0 +1,56 @@
+@font-face{
+  src: url("../fonts/NanumSquareRoundOTFEB.otf");
+  font-family: Nanum;
+}
+*{
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-family: Nanum;
+}
+
+body{
+	background-color: #FE9A2E;
+}
+
+.head_title{
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 30px
+	font-size: 64px;
+	color: yellow;
+}
+.body_title{
+	text-align: center;
+	margin-bottom: 75px
+	font-size: 32px;
+	color: yellow;
+}
+
+.coin{
+	background-color: white;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 50px
+}
+
+img{
+	width: 300px;
+	height: 200px;
+}
+
+.bitcoin{
+	text-align: center;
+	padding: 20px;
+	overflow: scroll;
+}
+h3{
+	font-size: 32px;
+	color: #58595b;
+	margin-top: 0;
+}
+
+a{
+	color: #0000ee;
+	font-size: 16px;
+	text-decoration: none;
+}

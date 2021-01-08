@@ -1,0 +1,44 @@
+1. 다음 조건들을 참고하여 예제를 구현해보시오.
+css 파일의 링크 태그 id = "pagestyle"
+[Night Mode시]
+배경색 : #4E4D4D
+글자색 : #CDCACA
+테두리색 : #2C2B2B
+[버튼]
+오른쪽 정렬
+[제목] 
+폰트 : https://fonts.google.com/specimen/Pirata+One?sidebar.open=true&selection.family=Pirata+One
+위 여백 64px, 글자 크기 64px
+가운데 정렬
+
+[시간을 나타내는 박스]
+선 굵기 : 4px, solid
+내부 여백 : 4px
+너비 : 450px
+가운데 정렬
+아래 여백 : 32px
+
+[암호화폐 박스]
+가운데 정렬
+아래 여백 : 96px
+폭 : 50%
+높이 : 100px
+모서리 둥글게 : 25px
+
+[링크]
+폰트 : https://fonts.google.com/specimen/Staatliches?sidebar.open=true&selection.family=Staatliches
+크기 : 32px
+굵게
+간격 : 32px
+height = line-height = 96px
+
+[이미지]
+너비 : 30em
+위, 아래 여백 : 40px
+메인 이미지 : https://www.corporatecomplianceinsights.com/wp-content/uploads/2018/07/cryptocurrency.jpg
+비트코인 이미지 :
+이더리움 이미지 :
+
+[강조문구]
+글자 크기 : 24px
+굵게
